@@ -1,0 +1,16 @@
+{
+  "name": "hola_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cristhian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-session": "^2.0.0-beta.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "jade": "^1

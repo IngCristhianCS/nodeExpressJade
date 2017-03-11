@@ -1,0 +1,12 @@
+extends ../../layout.jade
+block contenido
+	h1 hola mundo
+	form(action="/app/imagenes" method="POST" class="form-horizontal")
+		div.form-group
+			label(for="title") Titulo
+			input(name="title" type="text" id="title" class="form-control")
+		div.form-group
+			label(for="imagen") Contraseña
+			input(name="imagen" type="file" id="imagen" class="form-control")
+		div.form-group
+			input(type="submit" class="btn btn-success")
